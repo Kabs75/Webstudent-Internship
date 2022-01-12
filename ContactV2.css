@@ -1,0 +1,134 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container{
+	display: flex;
+	background-image: url("paper.gif");
+	background-color: #cccccc;
+	justify-content: center;
+	margin:100px;
+	margin-left:0px;
+	height: 200px;
+	width: 100%;
+	
+}
+
+.flex-container > h1{
+	margin:auto;
+	text-align:center;
+	color:white;
+	
+}
+.form-heading > h4{
+	margin-left: 60px;
+}
+.form-heading > h2{
+	margin-left: 60px;
+}
+div p{
+	margin-left: none;
+}
+
+.form input[type=text]{
+  	
+  padding: 20px;
+  font-size: 20px;
+  flex-direction: column;
+  border: 2px solid #ccc;
+  
+  
+ 
+}
+#fname{
+	padding: 20px;
+	margin-left: 80px;
+	width:100%;
+	border: 2px solid #ccc;
+}
+#email{
+	padding: 20px;
+	margin-left: 80px;
+	width:100%;
+	border: 2px solid #ccc;
+}
+#phone{
+	padding: 20px;
+	margin-left: 80px;
+	width:100%;
+	border: 2px solid #ccc;
+}
+#subject{
+	padding: 20px;
+	margin-left: 80px;
+	width:100%;
+	border: 2px solid #ccc;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  resize: none;
+}
+#submit{
+	margin-left: 10px;
+	margin-top:10px;
+	margin-bottom:10px;
+	width:50%;
+	border: 2px solid #ccc;
+}
+
+
+.float-container {
+   
+    padding: 20px;
+}
+
+.float-child {
+    width:50%;
+    float: left;
+    padding: 20px;
+    
+}  
+/* Clear floats after the columns */
+.float-container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width: 767px) {
+	
+	.float-child{
+		 width: 100%;
+	}
+	
+}
+p #address{
+	width: 50%;
+	margin: 20px;
+	
+}
+
+.list-unstyled{
+	text-color: white;
+	color: white;
+}
+
+.font-weight-bold{
+	color: white;
+}
+
+
+
+.red{
+	color: #0ac20a;
+}
+
+.d{
+	color: white;
+}
